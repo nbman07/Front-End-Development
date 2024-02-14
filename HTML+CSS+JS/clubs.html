@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Clubs - All Football</title>
+    <script src="navigation.js"></script>
+    <script src="footballAPI.js"></script>
+</head>
+<header>
+    <h1 id="title">Clubs</h1>
+</header>
+<hr>
+
+<body>
+    <center>
+        <div id="teams">
+            <form>
+
+                <label for="league">League</label>
+                <select name="league" id="league">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+                
+                <label for="season">Season</label>
+                
+                <select name="season" id="season">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </form>
+
+            <button onclick="displayTeams(league,season)">Click here</button>
+            <br>
+        </div>
+    </center>
+</body>
+
+</html>
