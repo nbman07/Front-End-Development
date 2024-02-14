@@ -1,9 +1,8 @@
+body {
+    width: auto;
+    margin:0 auto;
+}
 /* TITLE */
-/* 
-header {
-    display: flex;
-    align-items: center; 
-} */
 
 #title {
     font-size: 60px;
@@ -80,4 +79,19 @@ header {
     padding: 1em 1.5em;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/* CLUBS */
+/* #teams_list {
+    display: -ms-inline-grid;
+} */
+#team {
+    display: flex;
+    margin:auto;
+    width: auto;
+    overflow: auto;  
+}
+#team > div {
+    height: 100%;
+    width: 100%;
 }

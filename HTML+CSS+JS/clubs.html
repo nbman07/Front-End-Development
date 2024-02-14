@@ -15,30 +15,73 @@
 
 <body>
     <center>
-        <div id="teams">
-            <form>
+        <form>
+            <label for="league">League</label>
+            <select name="league" id="league_options">
+                <option value="volvo">Volvo</option>
+            </select>
 
-                <label for="league">League</label>
-                <select name="league" id="league">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-                
-                <label for="season">Season</label>
-                
-                <select name="season" id="season">
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-            </form>
+            <label for="season">Season</label>
+            <select name="season" id="season_options">
+                <option value="volvo">Volvo</option>
+            </select>
+        </form>
+        <br>
+        <button onclick="displayTeams()">Click here</button>
+        <br><br>
 
-            <button onclick="displayTeams(league,season)">Click here</button>
-            <br>
+        <div id="team">
+            
+            <!-- <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div>
+            <div class="team_display">
+                <img src="https://media.api-sports.io/football/teams/33.png" alt="">
+                <p>Hello</p>
+            </div> -->
         </div>
+        <br>
     </center>
 </body>
 
